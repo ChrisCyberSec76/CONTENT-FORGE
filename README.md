@@ -101,14 +101,13 @@ uvicorn backend.app:app --reload
 # API at http://localhost:8000
 # Interactive docs: http://localhost:8000/docs
 ```
+## 🎬 Example Output (Click to Play)
 
-### Example: build a post from one prompt
+This is a real example video generated from a **single prompt** using the ContentForge media pipeline.
 
-The app can turn a **single text prompt** into a full video post. See it in action:
+👉 **[Click here to play the example video](examples/media/single_prompt_video_example.mp4)**
 
-**[▶ Single-prompt video example](examples/media/single_prompt_video_example.mp4.mp4)** — `examples/media/`
-
-This sample was generated from one prompt through the production pipeline (video generation → optional voiceover/music → composition). The showcase API in this repo exposes the same *contracts* (request/response shapes) that the real app uses; the example video shows the kind of output that flow produces. To run the showcase locally and try the mock endpoints, use the Quick Start above; the linked video is the reference output for "one prompt → post."
+> This is a reference output only. Production prompts, models, and providers are not included in this repository.
 
 ### Available Endpoints (Showcase)
 
