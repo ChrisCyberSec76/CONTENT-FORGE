@@ -43,12 +43,11 @@ content-forge-public/
 │   ├── ACCESS_AND_AUTH.md   # Access model and auth
 │   ├── MEDIA_GENERATION_PIPELINE.md  # Video/voice/music flow
 │   └── ROADMAP.md           # Future development plans
-├── examples/                # Mock data examples
-│   ├── access_response_example.json
-│   ├── voiceover_request_example.json
-│   ├── video_generate_request_example.json
-│   ├── subscription_response_example.json
-│   └── media_compose_request_example.json
+├── examples/                # Mock data + sample output media
+│   ├── README.md            # Example descriptions and how to add more
+│   ├── media/               # Example outputs (what the app can produce)
+│   │   └── single_prompt_video_example.mp4.mp4   # Build-a-post-from-one-prompt
+│   └── *.json               # Request/response examples
 ├── .github/
 │   └── workflows/
 │       └── ci.yml           # CI workflow
@@ -103,6 +102,14 @@ uvicorn backend.app:app --reload
 # Interactive docs: http://localhost:8000/docs
 ```
 
+### Example: build a post from one prompt
+
+The app can turn a **single text prompt** into a full video post. See it in action:
+
+**[▶ Single-prompt video example](examples/media/single_prompt_video_example.mp4.mp4)** — `examples/media/`
+
+This sample was generated from one prompt through the production pipeline (video generation → optional voiceover/music → composition). The showcase API in this repo exposes the same *contracts* (request/response shapes) that the real app uses; the example video shows the kind of output that flow produces. To run the showcase locally and try the mock endpoints, use the Quick Start above; the linked video is the reference output for "one prompt → post."
+
 ### Available Endpoints (Showcase)
 
 - `GET /` – API information
@@ -123,6 +130,7 @@ uvicorn backend.app:app --reload
 - ✅ API contracts and request/response schemas
 - ✅ Design patterns and pipeline descriptions
 - ✅ Mock implementations for demonstration
+- ✅ **Example output video** – [single-prompt video example](examples/media/single_prompt_video_example.mp4.mp4) in `examples/media/` (build a post from one prompt)
 
 **This repository does NOT contain:**
 
