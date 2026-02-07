@@ -1,0 +1,50 @@
+{
+  "example_name": "API Response Examples",
+  "description": "Example API responses from the showcase backend endpoints",
+  "api_examples": {
+    "health_check": {
+      "endpoint": "GET /api/health",
+      "response": {
+        "status": "healthy",
+        "timestamp": "2026-02-07T12:00:00Z",
+        "service": "content-forge-ai-showcase",
+        "version": "1.0.0-showcase"
+      }
+    },
+    "access": {
+      "endpoint": "GET /api/users/me/access",
+      "response": {
+        "user_id": "showcase-user",
+        "approved": true,
+        "status": "full",
+        "note": "Mock response for showcase."
+      }
+    },
+    "subscription": {
+      "endpoint": "GET /api/users/me/subscription",
+      "response": {
+        "user_id": "showcase-user",
+        "credits_remaining": 100,
+        "tier": "showcase",
+        "note": "Mock response."
+      }
+    },
+    "video_generate": {
+      "endpoint": "POST /api/video/generate-long",
+      "response": {
+        "job_id": "mock-video-job-001",
+        "status": "accepted",
+        "message": "Mock: production uses Runway/Leonardo/VEO."
+      }
+    },
+    "voiceover_generate": {
+      "endpoint": "POST /api/voiceover/generate",
+      "response": {
+        "job_id": "mock-voice-job-001",
+        "status": "accepted",
+        "message": "Mock: production uses ElevenLabs/OpenAI."
+      }
+    }
+  },
+  "note": "These are example API responses from the showcase backend. Production endpoints return real job IDs and status from provider integrations."
+}

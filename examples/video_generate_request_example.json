@@ -1,0 +1,10 @@
+{
+  "example_name": "Video Generate Request",
+  "description": "POST /api/video/generate-long - request body",
+  "endpoint": "POST /api/video/generate-long",
+  "request": {
+    "prompt": "A serene landscape at sunset with mountains and a lake",
+    "duration_seconds": 10,
+    "style": "cinematic"
+  }
+}

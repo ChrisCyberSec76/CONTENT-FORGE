@@ -1,0 +1,11 @@
+{
+  "example_name": "Access Response",
+  "description": "GET /api/users/me/access - user access status",
+  "endpoint": "GET /api/users/me/access",
+  "response": {
+    "user_id": "showcase-user",
+    "approved": true,
+    "status": "full",
+    "note": "Mock response for showcase. Production uses approved-users and Base44."
+  }
+}

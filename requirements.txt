@@ -1,0 +1,27 @@
+# Content Forge AI - Public Showcase Dependencies
+# This interface mirrors the production content generation platform.
+# Actual implementation is private and licensed.
+
+# FastAPI and web server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
+
+# CORS support
+python-multipart>=0.0.6
+
+# HTTP client (for examples/mocks)
+httpx>=0.24.0
+
+# Date/time handling
+python-dateutil>=2.8.2
+
+# Type hints (for development)
+typing-extensions>=4.8.0
+
+# Note: Production system includes additional dependencies for:
+# - Runway / Leonardo / VEO video APIs
+# - ElevenLabs / OpenAI voice
+# - Music generation, media composition (MoviePy, FFmpeg)
+# - Base44 integration, credits, auth
+# These are not included in the showcase layer.

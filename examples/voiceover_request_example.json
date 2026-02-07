@@ -1,0 +1,10 @@
+{
+  "example_name": "Voiceover Request",
+  "description": "POST /api/voiceover/generate - request body",
+  "endpoint": "POST /api/voiceover/generate",
+  "request": {
+    "text": "Welcome to Content Forge. This is an example voiceover script.",
+    "voice_id": "optional-voice-id",
+    "language": "en-US"
+  }
+}

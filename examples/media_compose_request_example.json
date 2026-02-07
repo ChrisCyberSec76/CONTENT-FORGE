@@ -1,0 +1,12 @@
+{
+  "example_name": "Media Compose Request",
+  "description": "Multi-clip composition - request contract (schema only in showcase)",
+  "request": {
+    "clips": [
+      { "type": "video", "job_id": "video-job-001", "start_offset_seconds": 0 },
+      { "type": "voiceover", "job_id": "voice-job-001", "start_offset_seconds": 0 },
+      { "type": "music", "job_id": "music-job-001", "start_offset_seconds": 0 }
+    ],
+    "output_format": "mp4"
+  }
+}

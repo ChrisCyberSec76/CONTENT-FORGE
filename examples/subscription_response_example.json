@@ -1,0 +1,11 @@
+{
+  "example_name": "Subscription Response",
+  "description": "GET /api/users/me/subscription - credits and tier",
+  "endpoint": "GET /api/users/me/subscription",
+  "response": {
+    "user_id": "showcase-user",
+    "credits_remaining": 100,
+    "tier": "showcase",
+    "note": "Mock response. Production credits and billing are private."
+  }
+}
