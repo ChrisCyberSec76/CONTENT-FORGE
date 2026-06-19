@@ -9,6 +9,8 @@
 
 This repository demonstrates the architecture, design patterns, and capabilities of an AI-driven content and video generation platform. It showcases engineering skill through clean interfaces, comprehensive documentation, and example contracts—without exposing proprietary implementation details.
 
+**Portfolio:** [chrisgordon.dev](https://chrisgordon.dev) · **Production:** `C:\Users\gordo\Content-Forge`
+
 ---
 
 ## 🎯 Purpose
@@ -27,6 +29,10 @@ This is a **showcase layer** that describes how the system works, not a producti
 
 ```
 content-forge-public/
+├── portfolio/               # chrisgordon.dev — GitHub Pages site (see portfolio/README.md)
+│   ├── index.html           # Dev profile + live metrics
+│   ├── dev/                 # QTI, Malwatch, Content Forge showcases
+│   └── data/                # profile.json, portfolio-metrics.json (generated)
 ├── backend/                 # FastAPI backend interfaces
 │   ├── app.py               # FastAPI entry point
 │   ├── api/                 # API endpoints (mocked)

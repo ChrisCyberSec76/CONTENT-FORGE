@@ -1,0 +1,51 @@
+{
+  "name": "Christopher A. Gordon",
+  "title": "Senior Backend Engineer · AI Platform & Cybersecurity Systems",
+  "location": "Gaithersburg, MD",
+  "email": "chris.gordon@quantum-trade.dev",
+  "phone": "(240) 536-3690",
+  "github": "https://github.com/ChrisCyberSec76",
+  "portfolio": "https://chrisgordon.dev",
+  "tagline": "I architect production-grade distributed systems — multi-agent LLM orchestration, async FastAPI microservices, and operator consoles.",
+  "education": [
+    {
+      "degree": "M.S. Information Assurance & Cybersecurity",
+      "school": "Capella University",
+      "honors": "Summa Cum Laude, 2020",
+      "minor": "Network Defense Minor"
+    },
+    {
+      "degree": "B.S. Information Technology",
+      "school": "Capella University",
+      "honors": "Magna Cum Laude, 2018",
+      "specialization": "Information Security"
+    }
+  ],
+  "credentials": [
+    "CompTIA Security+",
+    "MITRE ATT&CK Defender",
+    "Google TensorFlow Developer"
+  ],
+  "military": "U.S. Army — Topographic Surveyor & Combat Medic (1996–2004), Operation Enduring Freedom",
+  "repos": [
+    {
+      "name": "quantum-trade-ai",
+      "url": "https://github.com/ChrisCyberSec76/quantum-trade-ai",
+      "label": "QTI Architecture Showcase"
+    },
+    {
+      "name": "malwatch-public",
+      "url": "https://github.com/ChrisCyberSec76/malwatch-public",
+      "label": "Malwatch Showcase"
+    },
+    {
+      "name": "CONTENT-FORGE",
+      "url": "https://github.com/ChrisCyberSec76/CONTENT-FORGE",
+      "label": "Content Forge Showcase + chrisgordon.dev"
+    }
+  ],
+  "skills_lead": [
+    "Python", "FastAPI", "AsyncIO", "React", "Multi-Agent LLM",
+    "Distributed Systems", "Cybersecurity", "Railway", "CI/CD"
+  ]
+}

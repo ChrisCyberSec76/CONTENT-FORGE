@@ -1,0 +1,75 @@
+{
+  "system": "malwatch",
+  "generated_at": "2026-06-19T02:16:45.989140+00:00",
+  "api_base": "http://127.0.0.1:8800",
+  "status": "live",
+  "metrics": {
+    "python_modules": 43,
+    "api_endpoints_probed": 6,
+    "api_endpoints_ok": 6,
+    "monitoring_modules_healthy": 5,
+    "ai_providers_online": 5,
+    "active_alerts": 5,
+    "open_connections": 196,
+    "files_scanned": 67,
+    "sentinel_running": false,
+    "protection_cycle": 0
+  },
+  "highlights": [
+    "Multi-agent LLM threat detection (Claude, Groq, DeepSeek, OpenAI)",
+    "FastAPI operator API + React console (8800/3100)",
+    "Real-time process, network, file, and clipboard monitoring",
+    "Automated quarantine and defense orchestration"
+  ],
+  "provider_probe": [
+    "OpenAI (paid): OK \u2014 HTTP 200 (model: gpt-4o)",
+    "ElevenLabs (paid): FAIL \u2014 HTTP 401 (voice: eleven_turbo_v2_5)",
+    "Groq (fallback): OK \u2014 HTTP 200 {\"object\":\"list\",\"data\":[{\"id\":\"canopylabs/orpheus-v1-english\",\"object\":\"model\",\"created\":1766186316",
+    "Anthropic (free): OK \u2014 HTTP 200",
+    "NewsAPI: OK \u2014 HTTP 200",
+    "IPInfo: OK \u2014 HTTP 200"
+  ],
+  "raw_safe": {
+    "overview": {
+      "activeAlerts": 5,
+      "openConnections": 196,
+      "filesScanned": 67,
+      "suspiciousFiles": 67,
+      "sentinelRunning": false,
+      "systemLoad": "CPU: 24.2% | RAM: 90.4%",
+      "dataSource": "live"
+    },
+    "module_health": [
+      {
+        "name": "Antivirus Stack",
+        "score": 100,
+        "source": "live"
+      },
+      {
+        "name": "File Shield",
+        "score": 0,
+        "source": "live"
+      },
+      {
+        "name": "Behavior Shield",
+        "score": 39,
+        "source": "live"
+      },
+      {
+        "name": "Web Shield",
+        "score": 98,
+        "source": "live"
+      },
+      {
+        "name": "Threat Intel",
+        "score": 90,
+        "source": "live"
+      },
+      {
+        "name": "Sentinel",
+        "score": 40,
+        "source": "live"
+      }
+    ]
+  }
+}

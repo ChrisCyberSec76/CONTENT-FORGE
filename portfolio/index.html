@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" data-root="">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Christopher Gordon — Senior Backend Engineer. AI platforms: Quantum Trade OS, Malwatch, Content Forge." />
+  <title>Christopher Gordon | Dev Profile · chrisgordon.dev</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="logo" href="index.html">CG<span class="logo-dot">.</span>dev</a>
+    <nav class="nav" id="site-nav-links" aria-label="Primary"></nav>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main>
+    <section class="hero" id="profile-hero">
+      <div class="hero-badge">M.S. Information Assurance &amp; Cybersecurity</div>
+      <h1 id="profile-name">Christopher A. Gordon</h1>
+      <p class="hero-title" id="profile-title">Senior Backend Engineer · AI Platform &amp; Cybersecurity Systems</p>
+      <p class="hero-lead" id="profile-tagline">Loading profile…</p>
+      <p class="hero-contact" id="profile-contact"></p>
+      <div class="skill-chips" id="profile-skills"></div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#systems">View Systems</a>
+        <a class="btn btn-secondary" href="dev/qti.html">QTI Dev Showcase</a>
+      </div>
+      <div class="hero-stats"></div>
+    </section>
+
+    <section id="live-metrics" class="section section-alt" hidden>
+      <div class="section-head">
+        <span class="section-tag">Live System Snapshot</span>
+        <h2>Production metrics from running environments</h2>
+        <p id="metrics-updated">Refresh via export scripts → merge → GitHub push</p>
+      </div>
+      <div id="live-metrics-grid" class="live-metrics-grid"></div>
+    </section>
+
+    <section id="systems" class="section">
+      <div class="section-head">
+        <span class="section-tag">Developer Showcase</span>
+        <h2>Three production AI platforms — architecture &amp; live data</h2>
+        <p>Each system has a dev page, public GitHub showcase repo, and live metrics pipeline.</p>
+      </div>
+      <div id="systems-grid" class="project-grid"></div>
+      <div class="repo-bar" id="profile-repos"></div>
+    </section>
+
+    <section id="architecture" class="section section-alt">
+      <div class="section-head">
+        <span class="section-tag">Engineering Patterns</span>
+        <h2>How these systems are built</h2>
+      </div>
+      <div class="pattern-grid">
+        <div class="pattern-card"><h4>Multi-Agent Orchestration</h4><p>Tiered agents with provider fallback, output validation, and centralized decision authority — QTI (14 agents) and Malwatch (defense cycles).</p></div>
+        <div class="pattern-card"><h4>Interface-Based Services</h4><p>Pydantic schemas and abstract service contracts separate public showcase repos from proprietary production logic.</p></div>
+        <div class="pattern-card"><h4>Async Data Pipelines</h4><p>Real-time enrichment, async job polling, cached scans, and telemetry dashboards for operator workflows.</p></div>
+        <div class="pattern-card"><h4>Security-First Design</h4><p>Governance gates, audit trails, threat enrichment, and SIEM-aligned patterns from a decade of federal security engineering.</p></div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="section-head"><span class="section-tag">Experience</span><h2>Background</h2></div>
+      <div class="timeline">
+        <div class="timeline-item"><div class="timeline-date">2016 – Present</div><div class="timeline-body"><h4>Independent AI Systems Builder</h4><p class="timeline-org">Self-Employed · Remote</p><p>Architected Malwatch, Quantum Trade Intelligence, and Content Forge — backend, pipelines, UIs, Railway deployment.</p></div></div>
+        <div class="timeline-item"><div class="timeline-date">2009 – 2016</div><div class="timeline-body"><h4>Network / Security Engineer</h4><p class="timeline-org">U.S. Department of Justice (Contractor)</p><p>Enterprise network/security, SIEM, incident response, Python operational tooling.</p></div></div>
+        <div class="timeline-item"><div class="timeline-date">2007 – 2009</div><div class="timeline-body"><h4>Senior Systems Administrator</h4><p class="timeline-org">U.S. Department of Agriculture (Contractor)</p><p>Windows, AD, VPN, endpoint security, distributed team support.</p></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="contact-inner">
+        <h2>Let's connect</h2>
+        <p>Senior backend · AI platform · cybersecurity engineering.</p>
+        <div class="contact-links">
+          <a href="mailto:chris.gordon@quantum-trade.dev">chris.gordon@quantum-trade.dev</a>
+          <a href="https://github.com/ChrisCyberSec76" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Christopher Gordon</p>
+    <p class="footer-note">Metrics: run export scripts in each project → <code>merge_portfolio_metrics.py</code> → push to GitHub</p>
+  </footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

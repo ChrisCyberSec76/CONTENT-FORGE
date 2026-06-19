@@ -1,0 +1,35 @@
+{
+  "system": "content_forge",
+  "generated_at": "2026-06-19T02:16:38.607108+00:00",
+  "api_base": "http://127.0.0.1:8000",
+  "status": "degraded",
+  "metrics": {
+    "api_route_groups": 45,
+    "autonomous_agents_configured": 0,
+    "media_providers_configured": 3,
+    "generated_videos": 0,
+    "generated_audio": 20,
+    "generated_images": 0,
+    "api_endpoints_probed": 5,
+    "api_endpoints_ok": 2
+  },
+  "highlights": [
+    "FastAPI media pipeline \u2014 video, voiceover, music, composition",
+    "Multi-provider AI (Runway, Leonardo, ElevenLabs, OpenAI)",
+    "Autonomous agent orchestrator with event bus",
+    "Async job polling and one-prompt-to-post workflows"
+  ],
+  "raw_safe": {
+    "health": {
+      "status": "healthy",
+      "service": "ContentForge AI Backend",
+      "version": "1.0.0"
+    },
+    "providers_configured": {
+      "runway": true,
+      "leonardo": true,
+      "tiktok_oauth": true
+    },
+    "agent_ids": []
+  }
+}

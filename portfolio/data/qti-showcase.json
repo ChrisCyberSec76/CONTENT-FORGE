@@ -1,0 +1,92 @@
+{
+  "product": "Quantum Trade Intelligence",
+  "brand_line": "The AI Trading Operating System",
+  "summary": "An autonomous, multi-agent trading platform that unifies scanning, scoring, governance, and execution into one supervised AI intelligence layer — built for intelligent, rules-driven finance.",
+  "pillars": [
+    {
+      "title": "Risk & Governance",
+      "items": ["Max daily loss limits", "Giveback protection", "PDT enforcement", "Cooldown periods", "Protect mode & account-tier controls"]
+    },
+    {
+      "title": "Analytics & Intelligence",
+      "items": ["Win rate and P&L review", "Strategy comparison", "Sentiment analysis", "Heatmaps & whale tracking", "ML-powered insights"]
+    },
+    {
+      "title": "Interface Layer",
+      "items": ["CIO conversational chat", "Jarvis voice assistant", "Board meeting presentation mode", "Voice command execution"]
+    },
+    {
+      "title": "Audit & Compliance",
+      "items": ["Every trade fully logged", "Decision context stored", "Error monitoring", "Endpoint usage tracking"]
+    }
+  ],
+  "bnai": {
+    "name": "BNAI",
+    "expansion": "Bars + News + AI",
+    "description": "Proprietary trade scoring framework. Technical bars, real-time news catalysts, and multi-agent AI synthesis must align before execution is authorized.",
+    "rules": [
+      "Good chart + strong news + AI confirms → trade authorized",
+      "Good chart + bad news → no trade",
+      "Hot news + weak chart → no trade"
+    ]
+  },
+  "agents": {
+    "total": 14,
+    "tiers": [
+      {
+        "name": "Market Discovery",
+        "agents": ["Momentum Scout", "News Agent", "Sentiment Agent", "Catalyst Detector", "Whale Hunter", "Pattern Agent"]
+      },
+      {
+        "name": "Market Understanding",
+        "agents": ["Market Regime Agent", "Quant Agent", "EMA Agent", "Harvey Agent"]
+      },
+      {
+        "name": "Safety & Control",
+        "agents": ["Risk Control Agent", "Compliance Agent", "EOD Closing Agent"]
+      },
+      {
+        "name": "CIO Command Layer",
+        "agents": ["Aggregates all agent reports — final decision with full context and reasoning"]
+      }
+    ]
+  },
+  "automation_cycle": [
+    "After market close — classify market regime",
+    "Overnight — scan premarket movers, rank candidates, compliance checks",
+    "Pre-market — build daily battle plan, update memory models",
+    "Market open — score live trades, monitor positions, apply stops",
+    "Intraday — re-check regime, react to news, manage positions",
+    "End of day — EOD agent closes positions, logs decisions, resets governance"
+  ],
+  "compliance": [
+    { "title": "Fully Logged", "text": "Every trade, decision, and agent action recorded with context and timestamp" },
+    { "title": "Human Override", "text": "Operators can intervene, pause, or override at any moment" },
+    { "title": "Regulated Broker", "text": "Execution routed through Alpaca — registered broker-dealer integration" },
+    { "title": "Audit Trail", "text": "Decision context stored for review and forensics" },
+    { "title": "Supervised AI", "text": "AI intelligence layer — not an unaccountable black-box algorithm" }
+  ],
+  "built_now": [
+    "Autonomous trading platform (paper trading mode)",
+    "14 AI agents + CIO layer deployed and functional",
+    "BNAI scoring engine active in real time",
+    "Governance & risk engine with rule-based controls",
+    "Audit & compliance architecture — every decision logged",
+    "Railway-deployed FastAPI backend with operator dashboard"
+  ],
+  "ip_assets": [
+    "BNAI trade scoring framework",
+    "14-Agent CIO architecture",
+    "Overnight intelligence cycle",
+    "Governance engine"
+  ],
+  "differentiators": [
+    "AI scanning + decision support + autonomous execution in one stack",
+    "Compliance engine (PDT, risk limits, audit trail) built in",
+    "Voice interface — Jarvis and CIO chat",
+    "Daily battle plans from overnight intelligence cycle",
+    "Unified system vs fragmented point tools"
+  ],
+  "showcase_repo": "https://github.com/ChrisCyberSec76/quantum-trade-ai",
+  "note": "Engineering showcase derived from founder-built platform documentation. Investor materials remain private."
+}

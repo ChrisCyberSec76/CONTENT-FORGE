@@ -1,0 +1,40 @@
+{
+  "systems": [
+    {
+      "id": "qti",
+      "name": "Quantum Trade Intelligence",
+      "subtitle": "The AI Trading Operating System",
+      "tagline": "Autonomous multi-agent platform — 14 AI agents, BNAI scoring, governance engine, CIO command layer.",
+      "status_key": "quantum_trade",
+      "page": "dev/qti.html",
+      "repo": "https://github.com/ChrisCyberSec76/quantum-trade-ai",
+      "production_path": "TradingProject/TradingProject",
+      "stack": ["Python", "FastAPI", "React", "Railway", "Alpaca", "StockFit"],
+      "accent": "purple"
+    },
+    {
+      "id": "malwatch",
+      "name": "Malwatch",
+      "subtitle": "AI Threat Detection & Response",
+      "tagline": "Multi-agent LLM security analyst — process monitoring, enrichment, automated defense.",
+      "status_key": "malwatch",
+      "page": "dev/malwatch.html",
+      "repo": "https://github.com/ChrisCyberSec76/malwatch-public",
+      "production_path": "Desktop/Malwatch",
+      "stack": ["Python", "FastAPI", "React", "Claude", "Groq", "Shodan"],
+      "accent": "cyan"
+    },
+    {
+      "id": "content_forge",
+      "name": "Content Forge AI",
+      "subtitle": "Multi-Modal Media Pipeline",
+      "tagline": "Video, voiceover, music composition — async jobs, agent orchestrator, 45+ API routes.",
+      "status_key": "content_forge",
+      "page": "dev/content-forge.html",
+      "repo": "https://github.com/ChrisCyberSec76/CONTENT-FORGE",
+      "production_path": "Content-Forge",
+      "stack": ["Python", "FastAPI", "React", "Runway", "ElevenLabs"],
+      "accent": "green"
+    }
+  ]
+}

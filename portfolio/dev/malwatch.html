@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" data-root="../">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Malwatch | Dev Showcase · chrisgordon.dev</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body data-page="malwatch">
+  <div class="bg-grid" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="logo" href="../index.html">CG<span class="logo-dot">.</span>dev</a>
+    <nav class="nav"><a href="../index.html">Profile</a><a href="../dev/qti.html">QTI</a><a href="../dev/content-forge.html">Content Forge</a><a class="nav-cta" href="https://github.com/ChrisCyberSec76/malwatch-public" target="_blank" rel="noopener">GitHub</a></nav>
+  </header>
+
+  <main class="dev-page">
+    <section class="dev-hero dev-hero-malwatch">
+      <span class="section-tag">Cybersecurity · LLM</span>
+      <h1>Malwatch</h1>
+      <p class="dev-brand">AI Threat Detection &amp; Response Platform</p>
+      <p class="dev-summary">Multi-agent AI security analyst for Windows — process monitoring, threat enrichment, automated quarantine, React operator console.</p>
+      <div class="live-stats dev-live-bar" id="mw-live-stats"></div>
+      <div class="dev-actions">
+        <a class="btn btn-primary" href="https://github.com/ChrisCyberSec76/malwatch-public" target="_blank" rel="noopener">Architecture Repo</a>
+        <a class="btn btn-secondary" href="../index.html">← Profile</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-head"><h2>Architecture</h2></div>
+      <div class="pattern-grid">
+        <div class="pattern-card"><h4>AI Orchestrator</h4><p>Protection cycles: clipboard, network, behavior, threat log analysis — Groq, Claude, DeepSeek, OpenAI.</p></div>
+        <div class="pattern-card"><h4>Defense Engine</h4><p>Quarantine, process termination, connection blocking, Pushover + Windows voice alerts.</p></div>
+        <div class="pattern-card"><h4>Enrichment</h4><p>Shodan, IPInfo, GeoIP metadata on network indicators.</p></div>
+        <div class="pattern-card"><h4>Operator Console</h4><p>FastAPI :8800 + React :3100 — incidents, live monitor, investigations.</p></div>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="section-head"><h2>Provider probe (live)</h2></div>
+      <ul class="probe-list" id="mw-probes"></ul>
+    </section>
+  </main>
+  <footer class="site-footer"><p><a href="../index.html">chrisgordon.dev</a></p></footer>
+  <script src="../js/app.js"></script>
+  <script src="../js/showcase.js"></script>
+</body>
+</html>

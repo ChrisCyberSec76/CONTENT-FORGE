@@ -1,0 +1,72 @@
+{
+  "system": "quantum_trade_intelligence",
+  "generated_at": "2026-06-19T02:17:04.786487+00:00",
+  "api_base": "https://quantum-trade-backend-production-6820.up.railway.app",
+  "status": "live",
+  "metrics": {
+    "python_modules": 1654,
+    "railway_checks_passed": 8,
+    "railway_checks_total": 8,
+    "open_positions": 2,
+    "portfolio_equity": null,
+    "agents_reporting": 14,
+    "autotrade_loop_active": false,
+    "stockfit_symbols": 6
+  },
+  "highlights": [
+    "14+ agent tiered orchestration with CIO memory vault",
+    "Railway-deployed FastAPI backend with governance gates",
+    "Alpaca, Finviz, StockFit, SEC EDGAR intelligence pipelines",
+    "Real-time operator dashboard and Financial Threat Intelligence APIs"
+  ],
+  "checks": {
+    "health": {
+      "ok": true,
+      "status": 200,
+      "ms": 498.0
+    },
+    "account": {
+      "ok": true,
+      "status": 200,
+      "ms": 849.4,
+      "equity": null,
+      "buying_power": null
+    },
+    "positions": {
+      "ok": true,
+      "status": 200,
+      "ms": 247.5,
+      "open_positions": 2
+    },
+    "dashboard": {
+      "ok": true,
+      "status": 200,
+      "ms": 604.9
+    },
+    "stockfit_bundle": {
+      "ok": true,
+      "status": 200,
+      "ms": 248.4,
+      "success": true,
+      "symbol_count": 6
+    },
+    "agents_status": {
+      "ok": true,
+      "status": 200,
+      "ms": 436.8,
+      "agent_keys": 14
+    },
+    "autotrade": {
+      "ok": true,
+      "status": 200,
+      "ms": 342.9,
+      "loop_active": false,
+      "can_trade_now": false
+    },
+    "strategy_runtime": {
+      "ok": true,
+      "status": 200,
+      "ms": 472.3
+    }
+  }
+}
