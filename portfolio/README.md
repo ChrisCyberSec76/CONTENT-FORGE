@@ -2,7 +2,9 @@
 
 Developer profile and live showcase for **Christopher Gordon** — Senior Backend Engineer, AI Platform & Cybersecurity.
 
-**Live site:** https://chrisgordon.dev (GitHub Pages from `CONTENT-FORGE` → `portfolio/`)
+**Live site (now):** https://chriscybersec76.github.io/CONTENT-FORGE/
+
+**Custom domain (after you register DNS):** https://chrisgordon.dev — see [docs/DOMAIN_SETUP.md](docs/DOMAIN_SETUP.md)
 
 **GitHub repo:** [ChrisCyberSec76/CONTENT-FORGE](https://github.com/ChrisCyberSec76/CONTENT-FORGE)
 
